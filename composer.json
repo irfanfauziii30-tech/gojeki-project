@@ -1,12 +1,16 @@
 {
-    "name": "u0_a551/gojeki-project",
+    "name": "irfanfauziii30-tech/gojeki-project",
+    "description": "GojeID PHP SDK untuk Gojek API - Termux Compatible",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "maulana20/gojekid": "^1.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
     "autoload": {
         "psr-4": {
-            "U0A551\\GojekiProject\\": "src/"
+            "GojeID\\": "src/"
         }
-    },
-    "require": {
-        "maulana20/gojekid": "^1.2",
-        "guzzlehttp/guzzle": "^8.1"
     }
 }
